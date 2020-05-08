@@ -10,11 +10,10 @@
         $newarray[] = $number;
       }
     }
-    var_dump($newarray);
     return $newarray;
   }
 
   // Richiamo la funzione
-  $r = test(1, 99, 5);
-  print_r($r);
+  $r = test(1, 8192, 5);
+  var_dump($r);
  ?>
